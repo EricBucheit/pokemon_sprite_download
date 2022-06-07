@@ -34,9 +34,13 @@ a pokemon from generation five will not be in the images for "red-blue" but imag
 Usage:
   clone the repository and have node installed.
   npm install, although I think I just use npm dependencies but that may change.
+  
   node index.js generation=one image=x-y
+  
   node index.js generation=two image=x-y verbose
+  
   node index.js generation=three image=x-y
+  
   etc...
 
   add "verbose" to show output of curl requests.
