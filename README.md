@@ -2,7 +2,7 @@
 A node script to download pokemon sprites and icons from https://pokemondb.net/
 
 This is a tool to download the sprites for many of the pokemon on pokemondb.net
-I CAN'T gaurantee that they wont do something like change the path or make a unique key, so use at your own risk.
+I CAN'T gaurantee that they wont do something like change the path or make a unique key for each image, so use at your own risk.
 
 I purposely didn't make it run every possible option because I feel like spamming them would be a bad this to do, and nobody needs 5 versions of every type of pokemon. That being said, in the future I might, and if you want to, it should be easy enough to loop through the generations and bypass the argument inputs.
 
@@ -28,7 +28,8 @@ images: [
  
  obviously I should have named that better but...
  
- For obvious reasons, a pokemon from "x-y" generation will not be in the "red-blue" generation but "red-blue" will be in "x-y"
+a pokemon from generation five will not be in the images for "red-blue" but images for "red-blue" will be in generation five.
+
  
 Usage:
   clone the repository and have node installed.
@@ -40,6 +41,8 @@ Usage:
 
   add "verbose" to show output of curl requests.
   
+  
+  Oh, and did I say use at your own risk? Don't spam the good people with requests. Thanks.
   
   
   
